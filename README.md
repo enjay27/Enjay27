@@ -1,47 +1,55 @@
-## Skills
-### Language
-<img src="https://img.shields.io/badge/Java-007396?style=flat-square&logo=Java&logoColor=white"/></a>
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=JavaScript&logoColor=white"/></a>
-<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=TypeScript&logoColor=white"/></a>
-<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/></a>
-<img src="https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white"/></a>
-### Front-end
-<img src="https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white"/></a>
-<img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=React&logoColor=white"/></a>
-### Back-end
-<img src="https://img.shields.io/badge/Spring-6DB33F?style=flat-square&logo=Spring&logoColor=white"/></a>
-<img src="https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white"/></a>
-<img src="https://img.shields.io/badge/Fastapi-009688?style=flat-square&logo=fastapi&logoColor=white"/></a>
-### Security & Account Control
-<img src="https://img.shields.io/badge/Keycloak-4D4D4D?style=flat-square&logo=keycloak&logoColor=white"/></a>
-<img src="https://img.shields.io/badge/Oauth2-3423A6?style=flat-square&logo=oauth2&logoColor=white"/></a>
-<img src="https://img.shields.io/badge/Active_Directory-1FB6FF?style=flat-square&logo=active&logoColor=white"/></a>
-### Data Source & Storage
-<img src="https://img.shields.io/badge/Mysql-4479A1?style=flat-square&logo=mysql&logoColor=white"/></a>
-<img src="https://img.shields.io/badge/Postgresql-4169E1?style=flat-square&logo=postgresql&logoColor=white"/></a>
-<img src="https://img.shields.io/badge/Redis-FF4438?style=flat-square&logo=redis&logoColor=white"/></a>
-<img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white"/></a>
-<img src="https://img.shields.io/badge/Synology-B5B5B6?style=flat-square&logo=synology&logoColor=white"/></a>
-<img src="https://img.shields.io/badge/MinIO-C72E49?style=flat-square&logo=minio&logoColor=white"/></a>
-<img src="https://img.shields.io/badge/DVC-13ADC7?style=flat-square&logo=dvc&logoColor=white"/></a>
-### Devops
-<img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=Docker&logoColor=white"/></a>
-<img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=Kubernetes&logoColor=white"/></a>
-<img src="https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=Prometheus&logoColor=white"/></a>
-<img src="https://img.shields.io/badge/ElasticStack-005571?style=flat-square&logo=elasticstack&logoColor=white"/></a>
-<img src="https://img.shields.io/badge/Github_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white"/></a>
-<img src="https://img.shields.io/badge/Gitlab_CI-FC6D26?style=flat-square&logo=gitlab&logoColor=white"/></a>
-<img src="https://img.shields.io/badge/Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white"/></a>
-<img src="https://img.shields.io/badge/MLflow-0194E2?style=flat-square&logo=mlflow&logoColor=white"/></a>
-<img src="https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white"/></a>
-### Basically Knows
-<img src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=Rust&logoColor=white"/></a>
-<img src="https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=C&logoColor=white"/></a>
-<img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=C%2B%2B&logoColor=white"/></a>
-<img src="https://img.shields.io/badge/GraphQL-E10098?style=flat-square&logo=GraphQL&logoColor=white"/></a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg"/>
+  <img alt="Kade, Kubernetes Platform Engineer" src="assets/banner-light.svg"/>
+</picture>
 
-###
+Kubernetes platform engineer in Korea. At work I run a data platform on Kubernetes built around Apache Polaris and DataHub. After hours I build a game, a live translator, and the agents that help me code.
 
+<details>
+<summary>한국어 소개</summary>
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=Enjay27&count_private=true)
+K8s 데이터 플랫폼에서 Apache Polaris와 DataHub를 운영하는 플랫폼 엔지니어입니다. 퇴근 후에는 2D 액션 게임 Stella Rain, 일본어→한국어 실시간 채팅 번역기 resonance-stream, 그리고 코딩을 돕는 AI 에이전트 설정을 만들고 있습니다.
 
+</details>
+
+### Now
+
+- Running Apache Polaris and DataHub on Kubernetes at work
+- Training the JA → KO model behind resonance-stream
+- Building Stella Rain, one combat system at a time
+
+### Projects
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/skills-dark.svg"/>
+  <img alt="Major skills across K8s-Platform, Stella Rain and Star Resonance: Kubernetes, Apache Polaris and DataHub; Godot and Game design; LLM fine-tuning and Tauri; Python and PostgreSQL shared by K8s-Platform and Star Resonance; Rust shared by Stella Rain and Star Resonance; GitHub Actions and Docker in all three" src="assets/skills-light.svg"/>
+</picture>
+
+- **[K8s-Platform](https://github.com/kade-k8s-platform)**: a mock data platform running across 3 Kubernetes clusters.
+- **[Star Resonance](https://github.com/star-resonance)**: real-time chat translator, Japanese → Korean, with a fine-tuned LLM.
+- **[Stella Rain](https://github.com/stella-rain)**: 2D quarter-view action game. The app is private; its simulation core is open source.
+- **[Kade Agent](https://github.com/kade-agent)**: rules, skills and configs for my AI coding agents.
+
+### How I work with AI agents
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/agent-flow-dark.svg"/>
+  <img alt="Kade Agent loop: 1, global rules in agent-config (AGENTS.md, 5 skills, sync hooks) are released and synced into Claude Code and Antigravity at session start; 2, governance in code-quality-assurance reads every repository daily at origin/main (daily results, drift issues, code quality); 3, its findings become rule changes. Kade approves, merges and releases." src="assets/agent-flow-light.svg"/>
+</picture>
+
+My agents follow one rule set, kept in [Kade Agent](https://github.com/kade-agent):
+
+- Plan first: no edits until the plan is approved
+- Test first: a failing test before every fix
+- Every change runs its checks; anything not verified is named as such
+- Agents author their own commits; I review and merge
+
+### Stack
+
+| Area | Daily |
+| --- | --- |
+| Platform | Kubernetes, PostgreSQL |
+| Data catalog | Apache Polaris, DataHub |
+| Observability | OpenSearch, Prometheus, Grafana |
+
+<sub>X [@kade027](https://x.com/kade027)</sub>

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" role="img" aria-label="Kade, Kubernetes Platform Engineer">
+  <rect width="1200" height="300" rx="16" fill="#f3f6fb"/>
+  <text x="64" y="138" fill="#0f1b2d" font-family="'Segoe UI', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="76" font-weight="700">Kade</text>
+  <text x="66" y="186" fill="#0f1b2d" font-family="'Segoe UI', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="28">Kubernetes Platform Engineer</text>
+  <text x="66" y="226" fill="#326ce5" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="19">apache-polaris · datahub · korea</text>
+  <g fill="none" stroke="#c9d4e5" stroke-width="2">
+    <rect x="660" y="64" width="150" height="172" rx="14"/>
+    <rect x="830" y="64" width="150" height="172" rx="14"/>
+    <rect x="1000" y="64" width="150" height="172" rx="14"/>
+  </g>
+  <g stroke="#326ce5" stroke-width="2" stroke-opacity="0.55">
+    <path d="M700 120 L770 120 M735 120 L735 185 M700 185 L770 185"/>
+    <path d="M870 110 L940 150 M870 190 L940 150 M870 110 L870 190"/>
+    <path d="M1040 125 L1110 125 M1040 125 L1075 190 M1110 125 L1075 190"/>
+  </g>
+  <g stroke="#326ce5" stroke-width="2" stroke-dasharray="5 6" stroke-opacity="0.8">
+    <path d="M770 120 L870 110"/>
+    <path d="M940 150 L1040 125"/>
+  </g>
+  <g fill="#326ce5">
+    <circle cx="700" cy="120" r="9"/><circle cx="770" cy="120" r="9"/><circle cx="735" cy="120" r="6"/>
+    <circle cx="700" cy="185" r="9"/><circle cx="770" cy="185" r="9"/><circle cx="735" cy="185" r="6"/>
+    <circle cx="870" cy="110" r="9"/><circle cx="940" cy="150" r="11"/><circle cx="870" cy="190" r="9"/>
+    <circle cx="1040" cy="125" r="9"/><circle cx="1110" cy="125" r="9"/><circle cx="1075" cy="190" r="9"/>
+  </g>
+  <g fill="#5b6b82" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="15">
+    <text x="676" y="222">cluster-1</text><text x="846" y="222">cluster-2</text><text x="1016" y="222">cluster-3</text>
+  </g>
+</svg>
