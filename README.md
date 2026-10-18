@@ -20,38 +20,10 @@ K8s 데이터 플랫폼에서 Apache Polaris와 DataHub를 운영하는 플랫�
 
 ### Projects
 
-```mermaid
-flowchart LR
-  subgraph sr [Stella Rain]
-    app
-    core
-  end
-  subgraph res [Star Resonance]
-    lab["resonance-lab"]
-    stream["resonance-stream"]
-  end
-  subgraph kp [K8s-Platform]
-    lakehouse
-  end
-
-  godot["Godot · SQLite"] --> app
-  game["Game design"] --> app
-  game --> core
-  rust["Rust"] --> app
-  rust --> core
-  rust --> stream
-  tauri["Tauri · Leptos"] --> stream
-  llm["LLM fine-tuning · llama.cpp"] --> stream
-  llm --> lab
-  torch["PyTorch · MLflow"] --> lab
-  py["Python"] --> lab
-  py --> lakehouse
-  pg[("PostgreSQL")] --> lab
-  pg --> lakehouse
-  datahub["DataHub · Kafka · OpenSearch"] --> lakehouse
-  polaris["Apache Polaris · Iceberg"] --> lakehouse
-  k8s["Kubernetes · Helm · OPA"] --> lakehouse
-```
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/skills-dark.svg"/>
+  <img alt="Major skills across K8s-Platform, Stella Rain and Star Resonance: Kubernetes, Apache Polaris and DataHub; Godot and Game design; LLM fine-tuning and Tauri; Python and PostgreSQL shared by K8s-Platform and Star Resonance; Rust shared by Stella Rain and Star Resonance; GitHub Actions and Docker in all three" src="assets/skills-light.svg"/>
+</picture>
 
 - **[K8s-Platform](https://github.com/kade-k8s-platform)**: a mock data platform running across 3 Kubernetes clusters.
 - **[Star Resonance](https://github.com/star-resonance)**: real-time chat translator, Japanese → Korean, with a fine-tuned LLM.
