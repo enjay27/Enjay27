@@ -1,47 +1,68 @@
-## Skills
-### Language
-<img src="https://img.shields.io/badge/Java-007396?style=flat-square&logo=Java&logoColor=white"/></a>
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=JavaScript&logoColor=white"/></a>
-<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=TypeScript&logoColor=white"/></a>
-<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/></a>
-<img src="https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white"/></a>
-### Front-end
-<img src="https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white"/></a>
-<img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=React&logoColor=white"/></a>
-### Back-end
-<img src="https://img.shields.io/badge/Spring-6DB33F?style=flat-square&logo=Spring&logoColor=white"/></a>
-<img src="https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white"/></a>
-<img src="https://img.shields.io/badge/Fastapi-009688?style=flat-square&logo=fastapi&logoColor=white"/></a>
-### Security & Account Control
-<img src="https://img.shields.io/badge/Keycloak-4D4D4D?style=flat-square&logo=keycloak&logoColor=white"/></a>
-<img src="https://img.shields.io/badge/Oauth2-3423A6?style=flat-square&logo=oauth2&logoColor=white"/></a>
-<img src="https://img.shields.io/badge/Active_Directory-1FB6FF?style=flat-square&logo=active&logoColor=white"/></a>
-### Data Source & Storage
-<img src="https://img.shields.io/badge/Mysql-4479A1?style=flat-square&logo=mysql&logoColor=white"/></a>
-<img src="https://img.shields.io/badge/Postgresql-4169E1?style=flat-square&logo=postgresql&logoColor=white"/></a>
-<img src="https://img.shields.io/badge/Redis-FF4438?style=flat-square&logo=redis&logoColor=white"/></a>
-<img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white"/></a>
-<img src="https://img.shields.io/badge/Synology-B5B5B6?style=flat-square&logo=synology&logoColor=white"/></a>
-<img src="https://img.shields.io/badge/MinIO-C72E49?style=flat-square&logo=minio&logoColor=white"/></a>
-<img src="https://img.shields.io/badge/DVC-13ADC7?style=flat-square&logo=dvc&logoColor=white"/></a>
-### Devops
-<img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=Docker&logoColor=white"/></a>
-<img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=Kubernetes&logoColor=white"/></a>
-<img src="https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=Prometheus&logoColor=white"/></a>
-<img src="https://img.shields.io/badge/ElasticStack-005571?style=flat-square&logo=elasticstack&logoColor=white"/></a>
-<img src="https://img.shields.io/badge/Github_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white"/></a>
-<img src="https://img.shields.io/badge/Gitlab_CI-FC6D26?style=flat-square&logo=gitlab&logoColor=white"/></a>
-<img src="https://img.shields.io/badge/Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white"/></a>
-<img src="https://img.shields.io/badge/MLflow-0194E2?style=flat-square&logo=mlflow&logoColor=white"/></a>
-<img src="https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white"/></a>
-### Basically Knows
-<img src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=Rust&logoColor=white"/></a>
-<img src="https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=C&logoColor=white"/></a>
-<img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=C%2B%2B&logoColor=white"/></a>
-<img src="https://img.shields.io/badge/GraphQL-E10098?style=flat-square&logo=GraphQL&logoColor=white"/></a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg"/>
+  <img alt="Kade, Kubernetes Platform Engineer" src="assets/banner-light.svg"/>
+</picture>
 
-###
+I'm a Kubernetes platform engineer in Korea. I run a data platform on Kubernetes: Apache Polaris as the Iceberg catalog, DataHub for metadata and lineage, and OpenSearch, Prometheus and Grafana to watch it all.
 
+<details>
+<summary>한국어 소개</summary>
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=Enjay27&count_private=true)
+쿠버네티스 위에서 Apache Polaris와 DataHub 기반 데이터 플랫폼을 운영하는 플랫폼 엔지니어입니다. 퇴근 후에는 2D 액션 게임 Stella Rain, 일본어→한국어 실시간 채팅 번역기 resonance-stream, 그리고 코딩을 돕는 AI 에이전트 설정을 만들고 있습니다.
 
+</details>
+
+### Now
+
+- Running Apache Polaris and DataHub on Kubernetes at work
+- Training the JA → KO model behind resonance-stream
+- Building Stella Rain, one combat system at a time
+
+### The platform, simplified
+
+```mermaid
+flowchart LR
+  subgraph k8s [Kubernetes]
+    polaris["Apache Polaris<br/>Iceberg catalog"]
+    pg[("PostgreSQL")]
+    datahub["DataHub<br/>metadata and lineage"]
+    obs["OpenSearch<br/>Prometheus + Grafana"]
+  end
+  polaris --> pg
+  polaris -- metadata --> datahub
+  obs -.-> polaris
+  obs -.-> datahub
+```
+
+### Projects
+
+- **[kade-k8s-platform](https://github.com/enjay27/kade-k8s-platform)**: a mock of that data platform, running across 3 Kubernetes clusters.
+- **[resonance-stream](https://github.com/enjay27/resonance-stream)**: real-time chat translator, Japanese → Korean, with a fine-tuned LLM.
+- **Stella Rain**: 2D quarter-view action game. In development, private for now.
+- **[kade-agent](https://github.com/enjay27/kade-agent)**: rules, skills and configs for my AI coding agents.
+
+### How I work with AI agents
+
+My agents follow one rule set, kept in [kade-agent](https://github.com/enjay27/kade-agent):
+
+- Plan first: no edits until the plan is approved
+- Test first: a failing test before every fix
+- Every change runs its checks; anything not verified is named as such
+- Agents author their own commits; I review and merge
+
+### Stack
+
+| Area | Daily |
+| --- | --- |
+| Platform | Kubernetes, PostgreSQL |
+| Data catalog | Apache Polaris, DataHub |
+| Observability | OpenSearch, Prometheus, Grafana |
+
+<details>
+<summary>Before platform work</summary>
+
+Java / Spring, TypeScript / NestJS, Python / FastAPI, React, Flutter, Keycloak, OAuth2, Redis, MongoDB, MinIO, MLflow, DVC, Docker, GitHub Actions, GitLab CI, Jenkins, Nginx
+
+</details>
+
+<sub>X [@kade027](https://x.com/kade027)</sub>
