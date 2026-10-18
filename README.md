@@ -32,6 +32,11 @@ K8s 데이터 플랫폼에서 Apache Polaris와 DataHub를 운영하는 플랫�
 
 ### How I work with AI agents
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/agent-flow-dark.svg"/>
+  <img alt="Kade Agent loop: 1, global rules in agent-config (AGENTS.md, 5 skills, sync hooks) are released and synced into Claude Code and Antigravity at session start; 2, governance in code-quality-assurance reads every repository daily at origin/main (daily results, drift issues, code quality); 3, its findings become rule changes. Kade approves, merges and releases." src="assets/agent-flow-light.svg"/>
+</picture>
+
 My agents follow one rule set, kept in [Kade Agent](https://github.com/kade-agent):
 
 - Plan first: no edits until the plan is approved
