@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 660" role="img" aria-label="Kade Agent: global rules are released to the coding agents, governance reads every repository daily, and its findings become rule changes; Kade approves, merges and releases">
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#aab4c0"/></marker></defs>
+<g stroke="#c9d1db" stroke-width="1.5" stroke-dasharray="4 5"><path d="M500 405 L500 170"/><path d="M500 405 L210 500"/><path d="M500 405 L790 500"/></g>
+<path d="M460 216 L250 454" stroke="#aab4c0" stroke-width="2" marker-end="url(#a)"/>
+<path d="M340 500 L672 500" stroke="#aab4c0" stroke-width="2" marker-end="url(#a)"/>
+<path d="M750 454 L540 216" stroke="#aab4c0" stroke-width="2" marker-end="url(#a)"/>
+<path d="M500 170 L345 64" stroke="#5b4fd6" stroke-opacity="0.45" stroke-width="1.5"/>
+<path d="M500 170 L500 64" stroke="#5b4fd6" stroke-opacity="0.45" stroke-width="1.5"/>
+<path d="M500 170 L645 64" stroke="#5b4fd6" stroke-opacity="0.45" stroke-width="1.5"/>
+<path d="M210 500 L75 612" stroke="#c4623f" stroke-opacity="0.45" stroke-width="1.5"/>
+<path d="M210 500 L205 612" stroke="#c4623f" stroke-opacity="0.45" stroke-width="1.5"/>
+<path d="M210 500 L345 612" stroke="#c4623f" stroke-opacity="0.45" stroke-width="1.5"/>
+<path d="M790 500 L645 612" stroke="#2b8a57" stroke-opacity="0.45" stroke-width="1.5"/>
+<path d="M790 500 L790 612" stroke="#2b8a57" stroke-opacity="0.45" stroke-width="1.5"/>
+<path d="M790 500 L925 612" stroke="#2b8a57" stroke-opacity="0.45" stroke-width="1.5"/>
+<rect x="292" y="47" width="105" height="34" rx="17" fill="#ffffff" stroke="#5b4fd6" stroke-width="1.5"/><rect x="292" y="47" width="105" height="34" rx="17" fill="#5b4fd6" fill-opacity="0.1"/><text x="345" y="69" text-anchor="middle" font-family="-apple-system, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#1f2328">AGENTS.md</text>
+<rect x="452" y="47" width="97" height="34" rx="17" fill="#ffffff" stroke="#5b4fd6" stroke-width="1.5"/><rect x="452" y="47" width="97" height="34" rx="17" fill="#5b4fd6" fill-opacity="0.1"/><text x="500" y="69" text-anchor="middle" font-family="-apple-system, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#1f2328">5 skills</text>
+<rect x="588" y="47" width="114" height="34" rx="17" fill="#ffffff" stroke="#5b4fd6" stroke-width="1.5"/><rect x="588" y="47" width="114" height="34" rx="17" fill="#5b4fd6" fill-opacity="0.1"/><text x="645" y="69" text-anchor="middle" font-family="-apple-system, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#1f2328">Sync hooks</text>
+<rect x="18" y="595" width="114" height="34" rx="17" fill="#ffffff" stroke="#c4623f" stroke-width="1.5"/><rect x="18" y="595" width="114" height="34" rx="17" fill="#c4623f" fill-opacity="0.1"/><text x="75" y="617" text-anchor="middle" font-family="-apple-system, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#1f2328">Plan first</text>
+<rect x="148" y="595" width="114" height="34" rx="17" fill="#ffffff" stroke="#c4623f" stroke-width="1.5"/><rect x="148" y="595" width="114" height="34" rx="17" fill="#c4623f" fill-opacity="0.1"/><text x="205" y="617" text-anchor="middle" font-family="-apple-system, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#1f2328">Test first</text>
+<rect x="276" y="595" width="139" height="34" rx="17" fill="#ffffff" stroke="#c4623f" stroke-width="1.5"/><rect x="276" y="595" width="139" height="34" rx="17" fill="#c4623f" fill-opacity="0.1"/><text x="345" y="617" text-anchor="middle" font-family="-apple-system, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#1f2328">Gate every PR</text>
+<rect x="576" y="595" width="139" height="34" rx="17" fill="#ffffff" stroke="#2b8a57" stroke-width="1.5"/><rect x="576" y="595" width="139" height="34" rx="17" fill="#2b8a57" fill-opacity="0.1"/><text x="645" y="617" text-anchor="middle" font-family="-apple-system, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#1f2328">Daily results</text>
+<rect x="725" y="595" width="130" height="34" rx="17" fill="#ffffff" stroke="#2b8a57" stroke-width="1.5"/><rect x="725" y="595" width="130" height="34" rx="17" fill="#2b8a57" fill-opacity="0.1"/><text x="790" y="617" text-anchor="middle" font-family="-apple-system, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#1f2328">Drift issues</text>
+<rect x="860" y="595" width="130" height="34" rx="17" fill="#ffffff" stroke="#2b8a57" stroke-width="1.5"/><rect x="860" y="595" width="130" height="34" rx="17" fill="#2b8a57" fill-opacity="0.1"/><text x="925" y="617" text-anchor="middle" font-family="-apple-system, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#1f2328">Code quality</text>
+<rect x="278" y="283" width="201" height="52" rx="10" fill="#ffffff" stroke="#c9d1db" stroke-width="1.5"/><text x="378.2" y="304.6" text-anchor="middle" font-family="-apple-system, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="600" fill="#1f2328" xml:space="preserve">1  Release</text><text x="378.2" y="324.6" text-anchor="middle" font-family="-apple-system, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="13" fill="#59636e">synced at session start</text>
+<rect x="392" y="474" width="216" height="52" rx="10" fill="#ffffff" stroke="#c9d1db" stroke-width="1.5"/><text x="500.0" y="496.0" text-anchor="middle" font-family="-apple-system, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="600" fill="#1f2328" xml:space="preserve">2  Read daily</text><text x="500.0" y="516.0" text-anchor="middle" font-family="-apple-system, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="13" fill="#59636e">every repo at origin/main</text>
+<rect x="536" y="283" width="172" height="52" rx="10" fill="#ffffff" stroke="#c9d1db" stroke-width="1.5"/><text x="621.8" y="304.6" text-anchor="middle" font-family="-apple-system, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="600" fill="#1f2328" xml:space="preserve">3  Findings</text><text x="621.8" y="324.6" text-anchor="middle" font-family="-apple-system, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="13" fill="#59636e">become rule changes</text>
+<rect x="408" y="375" width="184" height="60" rx="30" fill="#ffffff" stroke="#1f2328" stroke-width="1.5"/>
+<text x="500" y="401" text-anchor="middle" font-family="-apple-system, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="17" font-weight="700" fill="#1f2328">Kade</text>
+<text x="500" y="421" text-anchor="middle" font-family="-apple-system, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="12.5" fill="#59636e">approves · merges · releases</text>
+<rect x="410" y="132.0" width="180" height="76" rx="12" fill="#ffffff" stroke="#5b4fd6" stroke-width="2.5"/>
+<rect x="410" y="132.0" width="180" height="76" rx="12" fill="#5b4fd6" fill-opacity="0.1"/>
+<text x="500" y="168" text-anchor="middle" font-family="-apple-system, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="20" font-weight="700" fill="#1f2328">Global rules</text>
+<text x="500" y="192" text-anchor="middle" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="13" fill="#59636e">agent-config</text>
+<rect x="90" y="462.0" width="241" height="76" rx="12" fill="#ffffff" stroke="#c4623f" stroke-width="2.5"/>
+<rect x="90" y="462.0" width="241" height="76" rx="12" fill="#c4623f" fill-opacity="0.1"/>
+<text x="210" y="498" text-anchor="middle" font-family="-apple-system, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="20" font-weight="700" fill="#1f2328">Coding agents</text>
+<text x="210" y="522" text-anchor="middle" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="13" fill="#59636e">Claude Code · Antigravity</text>
+<rect x="682" y="462.0" width="217" height="76" rx="12" fill="#ffffff" stroke="#2b8a57" stroke-width="2.5"/>
+<rect x="682" y="462.0" width="217" height="76" rx="12" fill="#2b8a57" fill-opacity="0.1"/>
+<text x="790" y="498" text-anchor="middle" font-family="-apple-system, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="20" font-weight="700" fill="#1f2328">Governance</text>
+<text x="790" y="522" text-anchor="middle" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="13" fill="#59636e">code-quality-assurance</text>
+</svg>
